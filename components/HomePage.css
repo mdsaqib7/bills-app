@@ -1,0 +1,142 @@
+.homepage-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: mediumslateblue;
+  color: black;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.homepage-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: mediumslateblue;
+  color: white;
+}
+
+.homepage-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.homepage-checkbox {
+  margin-bottom: 10px;
+}
+
+.homepage-field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.homepage-label {
+  width: 120px;
+  font-weight: bold;
+}
+
+.homepage-info-small {
+  width: 300px;
+  padding: 5px;
+}
+
+.homepage-info {
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.homepage-image {
+  max-width: 300px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.homepage-hr {
+  width: 100%;
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid lightgray;
+}
+
+.homepage-button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.homepage-button:hover {
+  background-color: #800080;
+}
+
+.homepage-save-button {
+  background-color: black;
+  margin-bottom: 10px;
+}
+
+.homepage-cancel-button {
+  background-color: black;
+}
+
+.homepage-edit-button {
+  background-color: black;
+}
+
+.homepage-delete-button {
+  background-color: black;
+}
+
+.homepage-add-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  background-color: mediumslateblue;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.homepage-add-button:hover {
+  background-color: #800080;
+}
+
+@media screen and (max-width: 768px) {
+  .homepage-container {
+    padding: 10px;
+  }
+
+  .homepage-info-small {
+    width: 100%;
+  }
+
+  .homepage-image {
+    max-width: 100%;
+  }
+
+  .homepage-add-button {
+    bottom: 10px;
+    right: 10px;
+    font-size: 20px;
+  }
+}
